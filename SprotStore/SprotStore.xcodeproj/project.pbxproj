@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12E992B1E615A2E00E75C58 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E992A1E615A2E00E75C58 /* Logger.swift */; };
+		A1438B0F1EA36AC900338898 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1438B0E1EA36AC900338898 /* NetworkConnection.swift */; };
+		A1438B111EA36B9000338898 /* NetworkPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1438B101EA36B9000338898 /* NetworkPool.swift */; };
+		A1438B131EA36F8100338898 /* ProductDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1438B121EA36F8100338898 /* ProductDataStore.swift */; };
+		A182C5391EF184A600D176C9 /* StockValueImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182C5381EF184A600D176C9 /* StockValueImplementations.swift */; };
+		A182C53B1EF1857C00D176C9 /* StockValueFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182C53A1EF1857C00D176C9 /* StockValueFactories.swift */; };
+		A19DABF41EF6751C0005BA24 /* Euro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DABF31EF6751C0005BA24 /* Euro.swift */; };
+		A19FEBC21E59E43500A6FDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBC11E59E43500A6FDD6 /* AppDelegate.swift */; };
+		A19FEBC41E59E43500A6FDD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBC31E59E43500A6FDD6 /* ViewController.swift */; };
+		A19FEBC71E59E43500A6FDD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19FEBC51E59E43500A6FDD6 /* Main.storyboard */; };
+		A19FEBC91E59E43500A6FDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19FEBC81E59E43500A6FDD6 /* Assets.xcassets */; };
+		A19FEBCC1E59E43500A6FDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19FEBCA1E59E43500A6FDD6 /* LaunchScreen.storyboard */; };
+		A19FEBD71E59E43600A6FDD6 /* SprotStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBD61E59E43600A6FDD6 /* SprotStoreTests.swift */; };
+		A19FEBE21E59E43600A6FDD6 /* SprotStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBE11E59E43600A6FDD6 /* SprotStoreUITests.swift */; };
+		A19FEBF01E59ED4F00A6FDD6 /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBEF1E59ED4F00A6FDD6 /* ProductTableCell.swift */; };
+		A19FEBF21E5B3FF800A6FDD6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBF11E5B3FF800A6FDD6 /* Product.swift */; };
+		A19FEBF61E5B488300A6FDD6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FEBF51E5B488300A6FDD6 /* Utils.swift */; };
+		A1DA81121EF52C9000F30980 /* ChangeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA81111EF52C9000F30980 /* ChangeRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A19FEBD31E59E43600A6FDD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19FEBB61E59E43500A6FDD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19FEBBD1E59E43500A6FDD6;
+			remoteInfo = SprotStore;
+		};
+		A19FEBDE1E59E43600A6FDD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19FEBB61E59E43500A6FDD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19FEBBD1E59E43500A6FDD6;
+			remoteInfo = SprotStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12E992A1E615A2E00E75C58 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A1438B0E1EA36AC900338898 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		A1438B101EA36B9000338898 /* NetworkPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkPool.swift; sourceTree = "<group>"; };
+		A1438B121EA36F8100338898 /* ProductDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDataStore.swift; sourceTree = "<group>"; };
+		A182C5381EF184A600D176C9 /* StockValueImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockValueImplementations.swift; sourceTree = "<group>"; };
+		A182C53A1EF1857C00D176C9 /* StockValueFactories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockValueFactories.swift; sourceTree = "<group>"; };
+		A19DABF31EF6751C0005BA24 /* Euro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euro.swift; sourceTree = "<group>"; };
+		A19FEBBE1E59E43500A6FDD6 /* SprotStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprotStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19FEBC11E59E43500A6FDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A19FEBC31E59E43500A6FDD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A19FEBC61E59E43500A6FDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A19FEBC81E59E43500A6FDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19FEBCB1E59E43500A6FDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A19FEBCD1E59E43500A6FDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19FEBD21E59E43600A6FDD6 /* SprotStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprotStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19FEBD61E59E43600A6FDD6 /* SprotStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprotStoreTests.swift; sourceTree = "<group>"; };
+		A19FEBD81E59E43600A6FDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19FEBDD1E59E43600A6FDD6 /* SprotStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprotStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19FEBE11E59E43600A6FDD6 /* SprotStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprotStoreUITests.swift; sourceTree = "<group>"; };
+		A19FEBE31E59E43600A6FDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19FEBEF1E59ED4F00A6FDD6 /* ProductTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
+		A19FEBF11E5B3FF800A6FDD6 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A19FEBF51E5B488300A6FDD6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A1DA81111EF52C9000F30980 /* ChangeRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19FEBBB1E59E43500A6FDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBCF1E59E43600A6FDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBDA1E59E43600A6FDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19FEBB51E59E43500A6FDD6 = {
+			isa = PBXGroup;
+			children = (
+				A19DABF31EF6751C0005BA24 /* Euro.swift */,
+				A19FEBC01E59E43500A6FDD6 /* SprotStore */,
+				A19FEBD51E59E43600A6FDD6 /* SprotStoreTests */,
+				A19FEBE01E59E43600A6FDD6 /* SprotStoreUITests */,
+				A19FEBBF1E59E43500A6FDD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19FEBBF1E59E43500A6FDD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19FEBBE1E59E43500A6FDD6 /* SprotStore.app */,
+				A19FEBD21E59E43600A6FDD6 /* SprotStoreTests.xctest */,
+				A19FEBDD1E59E43600A6FDD6 /* SprotStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19FEBC01E59E43500A6FDD6 /* SprotStore */ = {
+			isa = PBXGroup;
+			children = (
+				A19FEBC11E59E43500A6FDD6 /* AppDelegate.swift */,
+				A19FEBC31E59E43500A6FDD6 /* ViewController.swift */,
+				A182C5381EF184A600D176C9 /* StockValueImplementations.swift */,
+				A182C53A1EF1857C00D176C9 /* StockValueFactories.swift */,
+				A12E992A1E615A2E00E75C58 /* Logger.swift */,
+				A1438B0E1EA36AC900338898 /* NetworkConnection.swift */,
+				A1438B101EA36B9000338898 /* NetworkPool.swift */,
+				A1438B121EA36F8100338898 /* ProductDataStore.swift */,
+				A19FEBC51E59E43500A6FDD6 /* Main.storyboard */,
+				A19FEBC81E59E43500A6FDD6 /* Assets.xcassets */,
+				A19FEBCA1E59E43500A6FDD6 /* LaunchScreen.storyboard */,
+				A19FEBCD1E59E43500A6FDD6 /* Info.plist */,
+				A19FEBEF1E59ED4F00A6FDD6 /* ProductTableCell.swift */,
+				A19FEBF11E5B3FF800A6FDD6 /* Product.swift */,
+				A19FEBF51E5B488300A6FDD6 /* Utils.swift */,
+				A1DA81111EF52C9000F30980 /* ChangeRecord.swift */,
+			);
+			path = SprotStore;
+			sourceTree = "<group>";
+		};
+		A19FEBD51E59E43600A6FDD6 /* SprotStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A19FEBD61E59E43600A6FDD6 /* SprotStoreTests.swift */,
+				A19FEBD81E59E43600A6FDD6 /* Info.plist */,
+			);
+			path = SprotStoreTests;
+			sourceTree = "<group>";
+		};
+		A19FEBE01E59E43600A6FDD6 /* SprotStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A19FEBE11E59E43600A6FDD6 /* SprotStoreUITests.swift */,
+				A19FEBE31E59E43600A6FDD6 /* Info.plist */,
+			);
+			path = SprotStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19FEBBD1E59E43500A6FDD6 /* SprotStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19FEBE61E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStore" */;
+			buildPhases = (
+				A19FEBBA1E59E43500A6FDD6 /* Sources */,
+				A19FEBBB1E59E43500A6FDD6 /* Frameworks */,
+				A19FEBBC1E59E43500A6FDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SprotStore;
+			productName = SprotStore;
+			productReference = A19FEBBE1E59E43500A6FDD6 /* SprotStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A19FEBD11E59E43600A6FDD6 /* SprotStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19FEBE91E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStoreTests" */;
+			buildPhases = (
+				A19FEBCE1E59E43600A6FDD6 /* Sources */,
+				A19FEBCF1E59E43600A6FDD6 /* Frameworks */,
+				A19FEBD01E59E43600A6FDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19FEBD41E59E43600A6FDD6 /* PBXTargetDependency */,
+			);
+			name = SprotStoreTests;
+			productName = SprotStoreTests;
+			productReference = A19FEBD21E59E43600A6FDD6 /* SprotStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A19FEBDC1E59E43600A6FDD6 /* SprotStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19FEBEC1E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStoreUITests" */;
+			buildPhases = (
+				A19FEBD91E59E43600A6FDD6 /* Sources */,
+				A19FEBDA1E59E43600A6FDD6 /* Frameworks */,
+				A19FEBDB1E59E43600A6FDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19FEBDF1E59E43600A6FDD6 /* PBXTargetDependency */,
+			);
+			name = SprotStoreUITests;
+			productName = SprotStoreUITests;
+			productReference = A19FEBDD1E59E43600A6FDD6 /* SprotStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19FEBB61E59E43500A6FDD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "nguyen hula";
+				TargetAttributes = {
+					A19FEBBD1E59E43500A6FDD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D47ZHBDYGU;
+						ProvisioningStyle = Automatic;
+					};
+					A19FEBD11E59E43600A6FDD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D47ZHBDYGU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A19FEBBD1E59E43500A6FDD6;
+					};
+					A19FEBDC1E59E43600A6FDD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D47ZHBDYGU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A19FEBBD1E59E43500A6FDD6;
+					};
+				};
+			};
+			buildConfigurationList = A19FEBB91E59E43500A6FDD6 /* Build configuration list for PBXProject "SprotStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A19FEBB51E59E43500A6FDD6;
+			productRefGroup = A19FEBBF1E59E43500A6FDD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19FEBBD1E59E43500A6FDD6 /* SprotStore */,
+				A19FEBD11E59E43600A6FDD6 /* SprotStoreTests */,
+				A19FEBDC1E59E43600A6FDD6 /* SprotStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19FEBBC1E59E43500A6FDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19FEBCC1E59E43500A6FDD6 /* LaunchScreen.storyboard in Resources */,
+				A19FEBC91E59E43500A6FDD6 /* Assets.xcassets in Resources */,
+				A19FEBC71E59E43500A6FDD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBD01E59E43600A6FDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBDB1E59E43600A6FDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19FEBBA1E59E43500A6FDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19DABF41EF6751C0005BA24 /* Euro.swift in Sources */,
+				A182C5391EF184A600D176C9 /* StockValueImplementations.swift in Sources */,
+				A1438B111EA36B9000338898 /* NetworkPool.swift in Sources */,
+				A1438B131EA36F8100338898 /* ProductDataStore.swift in Sources */,
+				A182C53B1EF1857C00D176C9 /* StockValueFactories.swift in Sources */,
+				A19FEBF61E5B488300A6FDD6 /* Utils.swift in Sources */,
+				A12E992B1E615A2E00E75C58 /* Logger.swift in Sources */,
+				A19FEBF01E59ED4F00A6FDD6 /* ProductTableCell.swift in Sources */,
+				A19FEBF21E5B3FF800A6FDD6 /* Product.swift in Sources */,
+				A1438B0F1EA36AC900338898 /* NetworkConnection.swift in Sources */,
+				A19FEBC41E59E43500A6FDD6 /* ViewController.swift in Sources */,
+				A1DA81121EF52C9000F30980 /* ChangeRecord.swift in Sources */,
+				A19FEBC21E59E43500A6FDD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBCE1E59E43600A6FDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19FEBD71E59E43600A6FDD6 /* SprotStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FEBD91E59E43600A6FDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19FEBE21E59E43600A6FDD6 /* SprotStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A19FEBD41E59E43600A6FDD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19FEBBD1E59E43500A6FDD6 /* SprotStore */;
+			targetProxy = A19FEBD31E59E43600A6FDD6 /* PBXContainerItemProxy */;
+		};
+		A19FEBDF1E59E43600A6FDD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19FEBBD1E59E43500A6FDD6 /* SprotStore */;
+			targetProxy = A19FEBDE1E59E43600A6FDD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A19FEBC51E59E43500A6FDD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19FEBC61E59E43500A6FDD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A19FEBCA1E59E43500A6FDD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19FEBCB1E59E43500A6FDD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19FEBE41E59E43600A6FDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A19FEBE51E59E43600A6FDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19FEBE71E59E43600A6FDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A19FEBE81E59E43600A6FDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A19FEBEA1E59E43600A6FDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SprotStore.app/SprotStore";
+			};
+			name = Debug;
+		};
+		A19FEBEB1E59E43600A6FDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SprotStore.app/SprotStore";
+			};
+			name = Release;
+		};
+		A19FEBED1E59E43600A6FDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SprotStore;
+			};
+			name = Debug;
+		};
+		A19FEBEE1E59E43600A6FDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D47ZHBDYGU;
+				INFOPLIST_FILE = SprotStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hula.company.SprotStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SprotStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19FEBB91E59E43500A6FDD6 /* Build configuration list for PBXProject "SprotStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19FEBE41E59E43600A6FDD6 /* Debug */,
+				A19FEBE51E59E43600A6FDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19FEBE61E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19FEBE71E59E43600A6FDD6 /* Debug */,
+				A19FEBE81E59E43600A6FDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19FEBE91E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19FEBEA1E59E43600A6FDD6 /* Debug */,
+				A19FEBEB1E59E43600A6FDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19FEBEC1E59E43600A6FDD6 /* Build configuration list for PBXNativeTarget "SprotStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19FEBED1E59E43600A6FDD6 /* Debug */,
+				A19FEBEE1E59E43600A6FDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19FEBB61E59E43500A6FDD6 /* Project object */;
+}
